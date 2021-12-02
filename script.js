@@ -15,4 +15,25 @@ function generateAkan() {
   var YY = parseInt(year.toString().slice(-2));
   var MM = month;
   var DD = day;
+  
+   //gender name array
+  var maleNames = [
+    "Kwasi",
+    " Kwadwo",
+    "Kwabena",
+    "Kwaku",
+    "Yaw",
+    "Kofi",
+    "Kwame",
+  ];
+  var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  var daysOfTheWeek = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
 }
