@@ -43,4 +43,5 @@ function generateAkan() {
   
   //removing any decimal value
   var d = parseInt(d);
+   console.log(d);
 }
