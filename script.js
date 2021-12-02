@@ -44,4 +44,14 @@ function generateAkan() {
   //removing any decimal value
   var d = parseInt(d);
    console.log(d);
+  
+   if (!isNaN(d)) {
+      if (gender == "female") {
+        alert("Your akan name is " + femaleNames[d] + ",meaning born on " + daysOfTheWeek[d]);
+      } else if (gender === "male") {
+        alert("Your akan name is " + maleNames[d] + ",meaning born on " + daysOfTheWeek[d]);
+      } else {
+        alert("Oops! something maybe wrong, check your details again.");
+    }
+  }
 }
