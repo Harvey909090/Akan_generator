@@ -14,24 +14,6 @@ body {
   background-color: var(--maincolor);
 }
 
-.form-main {
-  width: 500px;
-  padding-top: 5%;
-  max-width: 64em;
-  margin: auto;
-}
-
-.form-main-d {
-  width: 500px;
-  padding-top: 1%;
-  max-width: 64em;
-  margin: auto 200px;
-}
-
-.form-title {
-  text-align: center;
-  font-size: medium;
-}
 
 .container {
   width: 100%;
