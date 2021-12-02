@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Akan Generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <div class="container">
+                <div class="form-main ">
+                    <form action="" method="post">
+                        <h1 class="form-title">Akan Name Generator</h2>
+                        <br>
+                        <div class="form-group">
+                            <label for="" class="input-text">Year of Birth:</label>
+                            <br>
+                            <input type="year" id="yob" class="form-control" placeholder="Enter year of birth" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="input-text">Month of Birth:</label>
+                            <br>
+                            <input type="number" id="mob" class="form-control" placeholder="Enter birthday month" required min="1" max="12" />
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="input-text">Date of Birth:</label>
+                            <br>
+                            <input type="text" id="dob" class="form-control" placeholder="Enter date of birth"  required/>
+                        </div>
+                        <div class="form-group">
+                            <label>Select your gender:</label>
+                            <select id="gender" class="form-control form-control-sm">
+                                <option>Choose your gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="form-group btn">
+                            <button type="submit" class="generator" name="generate" id="generate" onclick="generateAkan()">Generate</button>
+                            <button type="reset" class="generator" name="generate" id="reset">Reset</button>
+                        </div>
+                </div>
+            </div>
+    </div>
+    </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
