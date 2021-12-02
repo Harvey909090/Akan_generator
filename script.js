@@ -9,4 +9,10 @@ function generateAkan() {
   var month = parseInt(birth_month.value);
   var year = parseInt(birth_year.value);
   var gender = user_gender.value;
+  
+   //extracting part of year string to get CC and YY
+  var CC = parseInt(year.toString().slice(0, 2));
+  var YY = parseInt(year.toString().slice(-2));
+  var MM = month;
+  var DD = day;
 }
