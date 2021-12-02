@@ -1,16 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
-  --maincolor: rgb(135, 250, 215);
-  --white: #fff;
-  --message: rgb(20, 20, 19);
-  --green :green;
-}
-
 body {
   background-color: var(--maincolor);
 }
