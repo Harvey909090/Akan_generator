@@ -7,7 +7,7 @@
 This is determined by the day a specific user was born.
 
 ## Author information
->author info
+>William Mwongela
 
 ## Setup Instructions
 >git clone the project using this by navigating to the terminal and copy this git clone https://github.com/Harvey909090/Akan_generator.git
